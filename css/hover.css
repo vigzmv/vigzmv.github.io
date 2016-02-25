@@ -1204,25 +1204,25 @@
 /* Buzz */
 @-webkit-keyframes hvr-buzz {
   50% {
-    -webkit-transform: translateX(1px) rotate(1deg);
-    transform: translateX(1px) rotate(1deg);
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
   }
 
   100% {
-    -webkit-transform: translateX(-1px) rotate(-1deg);
-    transform: translateX(-1px) rotate(-1deg);
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
   }
 }
 
 @keyframes hvr-buzz {
   50% {
-    -webkit-transform: translateX(1px) rotate(1deg);
-    transform: translateX(1px) rotate(1deg);
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
   }
 
   100% {
-    -webkit-transform: translateX(-1px) rotate(-1deg);
-    transform: translateX(-1px) rotate(-1deg);
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
   }
 }
 
