@@ -10,8 +10,8 @@ body {
     color: #fed136;
 }
 p {
-    font-size: 14px;
-    line-height: 1.75;
+    font-size: 16px;
+    line-height: 2;
 }
 p.large {
     font-size: 16px;
@@ -204,7 +204,7 @@ header .intro-text .intro-lead-in {
     font-size: 42px;
     line-height: 40px;
     margin-bottom: 25px;
-}
+}{{}}
 header .intro-text .intro-heading {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
