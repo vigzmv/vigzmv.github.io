@@ -1239,8 +1239,8 @@
 .hvr-buzz/* :hover, .hvr-buzz:focus, .hvr-buzz:active */ {
   -webkit-animation-name: hvr-buzz;
   animation-name: hvr-buzz;
-  -webkit-animation-duration: 0.25s;
-  animation-duration: 0.25s;
+  -webkit-animation-duration: 0.40s;
+  animation-duration: 0.40s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
