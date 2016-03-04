@@ -1204,29 +1204,29 @@
 /* Buzz */
 @-webkit-keyframes hvr-buzz {
   50% {
-    -webkit-transform: translateX(1px) rotate(1deg);
-    transform: translateX(1px) rotate(1deg);
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
   }
 
   100% {
-    -webkit-transform: translateX(-1px) rotate(-1deg);
-    transform: translateX(-1px) rotate(-1deg);
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
   }
 }
 
 @keyframes hvr-buzz {
   50% {
-    -webkit-transform: translateX(1px) rotate(1deg);
-    transform: translateX(1px) rotate(1deg);
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
   }
 
   100% {
-    -webkit-transform: translateX(-1px) rotate(-1deg);
-    transform: translateX(-1px) rotate(-1deg);
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
   }
 }
 
-/* .hvr-buzz {
+ /*.hvr-buzz {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -1236,15 +1236,15 @@
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
 } */
-.hvr-buzz/* :hover, .hvr-buzz:focus, .hvr-buzz:active */ {
+.hvr-buzz/*:hover, .hvr-buzz:focus, .hvr-buzz:active*/  {
   -webkit-animation-name: hvr-buzz;
   animation-name: hvr-buzz;
-  -webkit-animation-duration: 0.40s;
-  animation-duration: 0.40s;
+  -webkit-animation-duration: 0.30s;
+  animation-duration: 0.30s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: 3;
+  animation-iteration-count: 3;
 }
 
 /* Buzz Out */
