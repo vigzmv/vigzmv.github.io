@@ -6,6 +6,8 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 100%;
+    width: 100%;
 }
 .text-muted {
     color: #777;
@@ -165,8 +167,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em;
 }
+
+
+
 }header {
-    background-image: url(../img/header-bg.jpg);
+    background-color: #1a1a1a;
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
@@ -175,15 +180,15 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     -o-background-size: cover;
     text-align: center;
-    color: #fff;
+    color: white;
 }
 header .intro-text {
-	margin-top: 60px;
+    margin-top: 70px;
     padding-top: 10px;
     padding-bottom: 60px;
 }
 header .intro-text .intro-lead-in {
-	margin-top: 40px;
+    margin-top: 40px;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 55px;
@@ -210,10 +215,11 @@ header .intro-text .intro-heading {
     line-height: 50px;
     margin-bottom: 5px;
 }
+
 @media (min-width:768px) {
     header .intro-text {
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
 }
 header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -234,7 +240,7 @@ margin-top: 40px;
     vertical-align: middle;
 }
 
-{{}}
+
 header .intro-text .intro-heading {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
@@ -243,7 +249,16 @@ header .intro-text .intro-heading {
     line-height: 75px;
     margin-bottom: 50px;
 }
-}section {
+
+}
+
+#particles-js{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+
+section {
     padding: 100px 0;
 }
 section h2.section-heading {
@@ -263,6 +278,7 @@ section h3.section-subheading {
     section {
     padding: 150px 0;
 }
+
 }.service-heading {
     margin: 15px 0;
     text-transform: none;
@@ -511,7 +527,7 @@ aside.clients img {
     margin: 50px auto;
 }
 section#contact {
-    background-color: #222;
+    background-color: #1a1a1a;
 /*    background-image: url(../img/map-image.png);
 */    background-position: center;
     background-repeat: no-repeat;

@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="< Vignesh M | @VigzMv || Coding Enthusiast, Web Developer, Competitve Coder and Designer
+    <meta name="description" content="Vignesh M | @VigzMv || Coding Enthusiast, Web Developer, Competitve Coder and Designer
     | Find More About Me Here! | My Personal Website">
 
     <meta name="author" content="VigzMv">
@@ -21,12 +21,13 @@
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
+    <link href="css/hover.min.css"   rel="stylesheet" type="text/css">
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
     <link href="css/vignesh.css" rel="stylesheet" type="text/css">
-    <link href="css/hover.css"   rel="stylesheet" type="text/css">
-    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
 
 
     <!-- Custom Fonts -->
@@ -50,10 +51,11 @@
 </head>
 
 <body id="page-top" class="index">
+<div id="particles-js"></div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -74,9 +76,9 @@
                     <li>
                         <a class="page-scroll hvr-buzz hvr-hang" href="#services">Portfolio</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a class="page-scroll hvr-buzz hvr-hang" href="#about">About</a>
-                    </li>
+                    </li> -->
                     <li>
                         <a class="page-scroll hvr-buzz hvr-hang" href="#contact">Contact</a>
                     </li>
@@ -84,17 +86,18 @@
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
+        <!-- /.container-fluid-fluid -->
     </nav>
+            
 
     <!-- Header -->
     <header>
-        <div class="container">
+        <div class="container-fluid">
 
             <div class="intro-text">
                 <img class="img-responsive center-block img-circle hvr-rotate animated pulse" src="img/dp.jpg" alt="VigneshM" width="230" height="180">
                 <div class="intro-lead-in animated fadeInUp">@VigzMv</div>
-                <div class="webdev animated fadeInUp">Web Developer, Competitve Coder & Designer</div>
+                <div class="webdev animated fadeInUp">Web Developer, Sport Coder & Designer</div>
                 <!--<div class="intro-heading">It's Nice To Meet You</div> -->
                 <a target="_blank" href="https://drive.google.com/file/d/0B4RFY1g-niG2bGxRZ3djR3NsVU0/view" class="page-scroll btn btn-xl hvr-bob animated tada">Curriculum Vitae</a>
             </div>
@@ -102,8 +105,8 @@
     </header>
 
     <!-- Services Section -->
-    <section id="services" style="padding-top: 90px;padding-bottom: 2px">
-        <div class="container">
+    <section id="services" style="padding-top: 90px;padding-bottom: 90px">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading hvr-bounce-in animated zoomIn">Portfolio</h2>
@@ -111,6 +114,21 @@
                 </div>
             </div>
             <div class="row text-center animated fadeInUp">
+                
+                <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x hvr-pulse-grow text-primary"></i>
+                    <i class="fa fa-laptop hvr-buzz fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="service-heading">About</h4>
+                <p class="text-muted" style="font-size: 17px">All my Project Code is available on 
+                                    <a target="_blank" href="https://github.com/vigzmv" style="color: #333">Github <a target="_blank" href="https://github.com/vigzmv"><i class="fa fa-github"></i></a></a>
+                                    <br>I go by the handle
+                                    <a target="_blank" href="https://www.google.co.in/search?q=vigzmv" style="color: #333">
+                                    @VigzMv&nbsp;
+                                    </a> on the Internet.
+                                    <br>Find and hit me up!</p>
+            </div>
 
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -118,9 +136,14 @@
                         <i class="fa fa-code hvr-buzz fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Skills</h4>
-                    <p class="text-muted" style="font-size: 16.5px" >Programming In:&nbsp; <span style="color:#cc6600">
+                    <p class="text-muted" style="font-size: 17px" >Programming:<br><span style="color:#cc6600">
                         • C &nbsp;&nbsp;• C++ &nbsp;&nbsp;• Python</span>
-                        <br>Web Development: <span style="color:#cc6600">&nbsp;• HTML5 <br>&nbsp;• CSS3&nbsp;&nbsp;• JavaScript</span>
+                        <br>Web Development:<br><span style="color:#cc6600">• HTML5 &nbsp;• CSS3&nbsp;&nbsp;• JavaScript 
+                        &nbsp;• JQuery <br>&nbsp;• Python-Django &nbsp;• Bootstrap &nbsp;• Sass &nbsp;• SQL 
+                        </span>
+                        <br>Tools/OS:<br><span style="color:#cc6600">&nbsp;• Git &nbsp;• SublimeText &nbsp;• Linux 
+                        &nbsp;• Windows <br> </span>
+                        
                         <!--<br>Designer, Competitve Coder and Gamer. -->
                         <br></p>
                     </div>
@@ -129,36 +152,31 @@
                             <i class="fa fa-circle fa-stack-2x hvr-pulse-grow text-primary"></i>
                             <i class="fa fa-globe hvr-buzz fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="service-heading">Competitve Coding</h4>
+                        <h4 class="service-heading">On the Web</h4>
                 <p class="text-muted " style="font-size: 17px">
+                        <a target="_blank" href="https://www.linkedin.com/in/vigzmv"><span class ="hvr-pulse-grow" style="color:#cc6600">
+                        <span style="color:#777">• LinkedIn </span>&nbsp;Profile</span></a>
+                        <br>
                         <a target="_blank" href="https://www.codechef.com/users/vigzmv"><span class ="hvr-pulse-grow" style="color:#cc6600">
                         <span style="color:#777">• Codechef </span>&nbsp;Profile</span></a>
                         <br>
-                        <a target="_blank" href="http://www.spoj.com/users/vigzmv/"><span class ="hvr-pulse-grow" style="color:#cc6600"><span style="color:#777">• SPOJ World Rank:</span>&nbsp; #3522</span></a>
+                        <a target="_blank" href="http://www.spoj.com/users/vigzmv/"><span class ="hvr-pulse-grow" style="color:#cc6600"><span style="color:#777">• SPOJ World Rank:</span>&nbsp; #3387</span></a>
 
                         <br><a target="_blank" href="https://www.hackerearth.com/@vigzmv"><span class ="hvr-pulse-grow" style="color:#cc6600">
                         <span style="color:#777">• HackerEarth:</span>&nbsp; Dev Profile</span></a>
 
                         <br><a target="_blank" href="https://www.hackerrank.com/vigzmv"><span class ="hvr-pulse-grow" style="color:#cc6600">
-                        <span style="color:#777;">• HackerRank: Algos:</span>&nbsp; 62nd Percentile</span></a>
+                        <span style="color:#777;">• HackerRank</span>&nbsp; Profile</span></a><br>
                 </p>
             </div>
-            <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x hvr-pulse-grow text-primary"></i>
-                    <i class="fa fa-laptop hvr-buzz fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading">Frameworks/Tools</h4>
-                <p class="text-muted" style="font-size: 17px">• Git &nbsp;&nbsp;• Django &nbsp;&nbsp;• Bootstrap<br>&nbsp;• SublimeText
-                &nbsp;&nbsp;• WebStorm <br>&nbsp;• Linux &nbsp;&nbsp;• Windows</p>
-            </div>
+            
         </div>
     </div>
 </section>
 
 <!-- About Section -->
-<section id="about" style="padding-bottom: 15px;padding-top: 90px;">
-    <div class="container animated fadeInUp">
+<!-- <section id="about" style="padding-bottom: 15px;padding-top: 90px;">
+    <div class="container-fluid animated fadeInUp">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">About</h2>
@@ -175,7 +193,6 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Current</h4>
-                                <!-- <h4 class="subheading">Born</h4> -->
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted">Fresher <span style="color:#cc6600">B.Tech CSE</span> at MSIT, GGSIPU. Pursuing my passion of Solving problems and Developing stuff.</p>
@@ -189,7 +206,6 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Bit About Me</h4>
-                                <!-- <h4 class="subheading">Growing up</h4> -->
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted">Coding Enthusiast, Tech Geek,
@@ -197,7 +213,6 @@
                                     <br>Avid Music Listener &amp; PC Gamer.
                                 </p>
 
-                                <!-- <span style="color:#cc6600">10th: 9.2 GPA & 12th: 94.2%</span></p> -->
                             </div>
                         </div>
                     </li>
@@ -208,7 +223,6 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>My Code</h4>
-                                <!--<h4 class="subheading">TheCode</h4> -->
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted">All my Project Code is available on 
@@ -222,7 +236,7 @@
                             </div>
                         </div>
                     </li>
-                    <!-- <li class="timeline-inverted">
+                    <li class="timeline-inverted">
                         <div class="timeline-image hvr-bob hvr-buzz">
                             <img class="img-circle img-responsive" src="img/about/7.png" alt="">
                         </div>
@@ -236,7 +250,7 @@
                                     <a target="_blank" href="https://www.facebook.com/Vigz.Mv">Facebook</a>
                                 </div>
                             </div>
-                        </li> -->
+                        </li>
 
                     <li class="timeline-inverted">
                         <div class="timeline-image hvr-bob hvr-buzz">
@@ -251,16 +265,16 @@
         </div>
     </div>
 </section>
+ -->
 
 <section id="contact" style="padding-top: 50px; padding-bottom: 60px;">
     <footer style="padding-bottom: 1px;">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4 hvr-bob">
                     <div style="margin: auto;  text-decoration: none;">
                     <a target="_blank" href="mailto:vigzmv@outlook.com">
-                        <span style="color:#ffd633; font-size: 25px;">vigzmv
-                        <span style="color:#ffb31a">@outlook.com</span></span></a>
+                        <span style="color:#ffd633; font-size: 25px;">vigzmv<span style="color:#ffb31a">@outlook.com</span></span></a>
                     </div>
                 </div>
                 <div class="col-md-4 hvr-bob hvr-buzz" style="padding-top: 10px;">
@@ -308,6 +322,9 @@
 <!-- Custom Theme JavaScript -->
 <script src="js/agency.js"></script>
 
+<script src="js/particles.min.js"></script>
+
+<script src="js/app.js"></script>
 
 <script>
 
