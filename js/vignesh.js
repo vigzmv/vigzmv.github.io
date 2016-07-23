@@ -24,3 +24,12 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+
+$(function typing(){
+    $(".typing").typed({
+        strings: ["Hi there !","Nice to meet you.",""],
+        typeSpeed: 100
+    });
+    setTimeout(typing, 6400)
+});
