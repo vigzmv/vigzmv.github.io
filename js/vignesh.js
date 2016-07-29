@@ -28,8 +28,8 @@ $('.navbar-collapse ul li a').click(function() {
 
 $(function typing(){
     $(".typing").typed({
-        strings: ["Hi there !","Nice to meet you.",""],
+        strings: ["Hi, there!","Nice to meet you.",""],
         typeSpeed: 100
     });
-    setTimeout(typing, 6400)
+    setTimeout(typing, 8000)
 });
