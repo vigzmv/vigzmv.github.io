@@ -214,27 +214,26 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 header .intro-text {
-    margin-top: 70px;
+    margin-top: 40px;
     padding-top: 10px;
     padding-bottom: 60px;
 }
 header .intro-text .intro-lead-in {
-    margin-top: 80px;
+    margin-top: 70px;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 55px;
+    font-size: 50px;
     line-height: 22px;
     margin-bottom: 55px;
     vertical-align: middle;
 }
 
 header .intro-text .webdev{
-    margin-top: 40px;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 38px;
+    font-size: 30px;
     line-height: 50px;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 50px;
     vertical-align: middle;
 }
@@ -255,18 +254,17 @@ header .intro-text .intro-heading {
 header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 53px;
+    font-size: 45px;
     line-height: 40px;
     margin-bottom: 20px;
 }
 
 header .intro-text .webdev{
-margin-top: 40px;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 50px;
-    margin-top: 45px;
+    margin-top: 15px;
     margin-bottom: 50px;
     vertical-align: middle;
 }
@@ -286,6 +284,7 @@ header .intro-text .intro-heading {
 .typing{
     color: #FFF9C4;
     font-style: normal;
+    font-size: 0.90em;
 }
 
 
@@ -293,7 +292,7 @@ section {
     padding: 100px 0;
 }
 section h2.section-heading {
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 0;
     margin-bottom: 15px;
 }

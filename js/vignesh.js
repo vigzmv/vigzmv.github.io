@@ -28,9 +28,8 @@ $('.navbar-collapse ul li a').click(function() {
 
 $(function typing(){
     $(".typing").typed({
-        strings: ["Hi, there!","Nice to meet you.","Thanks for stumbling upon"],
+        strings: ["Hi, there!","Let's Build Better!"],
         typeSpeed: 100,
         loop: true,
-
     });
 });
