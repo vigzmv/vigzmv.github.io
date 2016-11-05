@@ -219,12 +219,12 @@ header .intro-text {
     padding-bottom: 60px;
 }
 header .intro-text .intro-lead-in {
-    margin-top: 70px;
+    margin-top: 60px;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 50px;
     line-height: 22px;
-    margin-bottom: 55px;
+    margin-bottom: 45px;
     vertical-align: middle;
 }
 
@@ -234,7 +234,7 @@ header .intro-text .webdev{
     font-size: 30px;
     line-height: 50px;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     vertical-align: middle;
 }
 header .intro-text .intro-heading {
@@ -256,7 +256,7 @@ header .intro-text .intro-lead-in {
     font-style: italic;
     font-size: 45px;
     line-height: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 header .intro-text .webdev{
@@ -265,7 +265,7 @@ header .intro-text .webdev{
     font-size: 35px;
     line-height: 50px;
     margin-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     vertical-align: middle;
 }
 
@@ -284,7 +284,7 @@ header .intro-text .intro-heading {
 .typing{
     color: #FFF9C4;
     font-style: normal;
-    font-size: 0.90em;
+    font-size: 1.5em;
 }
 
 
@@ -310,6 +310,7 @@ section h3.section-subheading {
 }
 
 }.service-heading {
+    font-size: 1.5em;
     margin: 15px 0;
     text-transform: none;
 }
