@@ -86,7 +86,7 @@ header:after {
 }
 
 .text-muted {
-    color: #dadada;
+    color: #e6e6e6;
 }
 
 .text-primary {
@@ -398,7 +398,7 @@ section h3.section-subheading {
     font-size: 1.5em;
     margin: 15px 0;
     text-transform: none;
-    color: #f3f1f1;
+    color: #ffffff;
 }
 
 #portfolio .portfolio-item {
