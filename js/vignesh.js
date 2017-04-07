@@ -324,6 +324,6 @@ $('.navbar-collapse ul li a').click(function() {
 $(function() {
     $('#slogan').typer({
         search: 'Pythonist !',
-        replace: ['Javascripter !', 'Sport Coder !', 'Web Dev !', 'Designer !', 'Tech Geek !', "Native Dev !"]
+        replace: ['Javascripter !', 'Sport Coder !', 'Web Dev !', 'Designer !', 'Tech Geek !', "Native Dev !", "Hacker !"]
     })
 })
