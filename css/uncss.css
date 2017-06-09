@@ -1200,10 +1200,9 @@ img::-moz-selection {
   src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');
   src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0')
       format('embedded-opentype'),
-    url('../fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'),
-    url('../fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'),
-    url('../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular')
-      format('svg');
+    url('../fonts/fontawesome-webfont.woff') format('woff'),
+    url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+    url('../fonts/fontawesome-webfont.svg?#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1269,24 +1268,6 @@ img::-moz-selection {
   content: "\f1dc";
 }
 /*** uncss> filename: https://fonts.googleapis.com/css?family=Montserrat:400,700|Kaushan+Script|Droid+Serif:400,700,400italic,700italic|Roboto+Slab:400,100,300,700 ***/
-@font-face {
-  font-family: 'Droid Serif';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Droid Serif'),
-    local('DroidSerif'),
-    url(https://fonts.gstatic.com/l/font?kit=DgAtPy6rIVa2Zx3Xh9KaNemt5Yfrv7RGHqR_urXH10s&skey=a46d7e8bf49adcd6&v=v6)
-      format('woff2');
-}
-@font-face {
-  font-family: 'Kaushan Script';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Kaushan Script'),
-    local('KaushanScript-Regular'),
-    url(https://fonts.gstatic.com/l/font?kit=qx1LSqts-NtiKcLw4N03IBQ6cyjhwCcKjVNofdXmLoA&skey=31e8905c8b129a4e&v=v5)
-      format('woff2');
-}
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
