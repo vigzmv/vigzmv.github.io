@@ -5,7 +5,7 @@ import { GoogleAnalytics } from '@next/third-parties/google';
 const meta = {
   title: 'Vignesh M - Tech Lead | Software Engineer | Software Architect',
   desc: 'Engineering & Product Leader with expertise in scaling high-performing systems and cohesive teams. Open to tech consulting and fractional executive roles.',
-  image: 'https://vigneshm.com/vignesh-web.jpg',
+  image: 'https://vigneshm.com/images/vignesh-web.jpg',
   url: 'https://vigneshm.com',
 };
 
