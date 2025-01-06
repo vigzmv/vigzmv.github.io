@@ -13,6 +13,9 @@ import { SiNpm } from 'react-icons/si';
 
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
+import { Card, CardContent } from '@/components/ui/card';
+import { FaExternalLinkAlt, FaExternalLinkSquareAlt } from 'react-icons/fa';
+import { FiExternalLink } from 'react-icons/fi';
 
 const WorkEx = [
   ['Aug 2019 - Present', 'Chief Technology Officer, Novelship'],
@@ -24,10 +27,111 @@ const WorkEx = [
   ['Aug 2016 - Nov 2016', 'Web Development Intern, CV Owl'],
 ];
 
+const PortfolioItems = [
+  {
+    title: 'Novelship raises US$9.5M in Series B',
+    description:
+      'Asia’s fastest-growing sneaker marketplace Novelship secures US$9.5 million in series B funding round led by East Ventures, following latest collaboration with Snoop Dogg',
+    image:
+      'https://d3g5ywftkpzr0e.cloudfront.net/wp-content/uploads/2019/04/12120653/logo-343x60.png',
+    imageClass: 'object-contain',
+    link: 'https://east.vc/news/press-release/novelship-secures-series-b-funding-led-by-east-ventures/',
+    year: 2023,
+  },
+  {
+    title: 'Novelship raises US$10M in Series A',
+    description:
+      'Novelship raises close to US$10M in Series A to further expand in APAC, explore metaverse integration',
+    image:
+      'https://gsrventuresglobal.com/wp-content/uploads/2020/06/GSR_LOGO_MD.png',
+    imageClass: 'object-contain',
+    link: 'https://east.vc/east-ventures/novelship-raises-series-a-funding-to-ignite-sneaker-and-streetwear-culture-in-asia/',
+    year: 2021,
+  },
+  {
+    title: 'Launched the Novelship Mobile App',
+    description:
+      "Led the development of Novelship's mobile app from concept to launch, resulting in 100k+ downloads and $2M+ in mobile revenue in first quarter.",
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/73/3f/75/733f7555-d228-cef7-531f-6b3ef55e300e/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/1200x630wa.png',
+    imageClass: 'object-cover',
+    link: 'https://apps.apple.com/sg/app/novelship-authentic-sneakers/id1553741278',
+    year: 2021,
+  },
+  {
+    title: 'Novelship raises US$2M in Seed',
+    description:
+      'Collectible sneakers startup Novelship raises US$2.05m in seed round led by Global Founders Capital',
+    image:
+      'https://www.businesstimes.com.sg/assets-web2/logo-business-times-home-og-BtdYjdmJ.jpg',
+    imageClass: 'object-cover',
+    link: 'https://www.businesstimes.com.sg/startups-tech/startups/collectible-sneakers-startup-novelship-raises-us205m-seed-round-led-global',
+    year: 2019,
+  },
+  {
+    title: 'React Promise Suspense',
+    description:
+      '10 Million+ Downloads. A React hook for resolving promises with Suspense support. <1kb bundle.',
+    image:
+      'https://opengraph.githubassets.com/aba36c12e698e99d2fb990a00f84a87cd9e82839ccddce4cc5b475b3c32a5469/vigzmv/react-promise-suspense',
+    imageClass: 'object-cover',
+    link: 'https://github.com/vigzmv/react-promise-suspense',
+    year: 2019,
+  },
+  {
+    title: 'what_the_thing',
+    description:
+      '📷 Point your camera at things to learn how to say them in a different language. Mobile app built with React Native. 500+ stars ⭐️',
+    image:
+      'https://opengraph.githubassets.com/3b21b277ac6d2aa33db457e3c8752c4af7bec4b80f6393bb3963ec912855871c/vigzmv/what_the_thing',
+    imageClass: 'object-cover',
+    link: 'https://github.com/vigzmv/what_the_thing',
+    year: 2017,
+  },
+  {
+    title: 'LocalStorage Node',
+    description:
+      'In-memory localStorage polyfill for Node.js utilizing ES6 proxies.',
+    image:
+      'https://opengraph.githubassets.com/43abfaada60cf23cfbb5e85d9a53c477e45550bf8a45fd3afafc2c9c465c5d40/vigzmv/localStorage-node',
+    imageClass: 'object-cover',
+    link: 'https://github.com/vigzmv/localStorage-node',
+    year: 2018,
+  },
+  {
+    title: 'Into the ReactJs',
+    description:
+      'Mentored 5-hour ReactJs Workshop at Facebook Dev Circle Delhi',
+    image:
+      'https://opengraph.githubassets.com/6fbfbd0903a063fe9008284f60973bd40769f6ff409e6aa5f59bd3ae745e0ade/vigzmv/Into-the-ReactJs',
+    imageClass: 'object-cover',
+    link: 'https://github.com/vigzmv/Into-the-ReactJs',
+    year: 2018,
+  },
+  {
+    title: '2nd Prize Winner',
+    description:
+      'DCB Bank Fin-tech Hackathon 2018. Organized by DCB Bank, Dev Accelerator & 91Springboard',
+    image:
+      'https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F35944131%2F226265900343%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C0%2C998%2C499&s=86e599210dda009c206de3d804801b6e',
+    imageClass: 'object-cover',
+    link: '#',
+    year: 2018,
+  },
+  {
+    title: '1st Prize Winner',
+    description: 'ClashHacks Hackathon 2017 API Challenge.',
+    image: 'https://i.ytimg.com/vi/t3YM7YxMvCc/maxresdefault.jpg',
+    imageClass: 'object-cover',
+    link: '#',
+    year: 2017,
+  },
+];
+
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
-      <div className="container max-w-2xl mx-auto px-4 py-8">
+      <div className="container max-w-2xl mx-auto px-8 py-8 mb-8">
         <div className="flex justify-end mb-4">
           <Link href="mailto:vigzmv@outlook.com">
             <Button variant="secondary">Contact Me</Button>
@@ -38,13 +142,13 @@ export default function Page() {
           <Image
             src="/vignesh-web.jpg"
             alt="Vignesh M profile picture"
-            width={120}
-            height={120}
+            width={144}
+            height={144}
             className="rounded-full mb-4"
           />
           <h1 className="text-3xl font-bold mb-2">Vignesh M</h1>
           <div className="text-muted-foreground mb-3">
-            <Link href="https://twitter.com/vigzmv" className="hover:underline">
+            <Link href="#" className="hover:underline">
               @vigzmv
             </Link>{' '}
             on the internet
@@ -102,7 +206,7 @@ export default function Page() {
               Tech Leadership, Fullstack Development, Systems Architecture,
               Performance-Cost Optimisation & Mobile Apps.
             </p>
-            <p className="mb-0.5">
+            <p className="mb-1">
               I'm open to software development projects, fractional executive
               roles, advising early stage companies, mentoring, and partnering
               on side projects.
@@ -113,7 +217,7 @@ export default function Page() {
             </p>
           </div>
 
-          <div className="flex gap-5 mb-2 mt-4 items-center">
+          <div className="flex gap-5 mb-2.5 mt-6 items-center">
             <Link href="https://vigzmv.github.io/VigneshM.pdf" target="_blank">
               <Button variant="default" className="mt-0">
                 My Resume
@@ -126,7 +230,7 @@ export default function Page() {
             </Link>
           </div>
 
-          <div className="flex gap-4 mb-2 mt-3 items-center">
+          <div className="flex gap-4 mb-3 mt-3 items-center">
             <Link
               href="https://github.com/vigzmv"
               target="_blank"
@@ -186,58 +290,50 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="w-full">
-          <h2 className="text-xl font-semibold mb-6">Featured</h2>
-          <div className="space-y-6">
-            <div className="grid gap-2">
-              <p className="text-muted-foreground">
-                Into the React.js Mentored 5-hour React.js Workshop at Facebook
-                Dev Circle Delhi Code content for my Workshop on React.{' '}
-                <Link
-                  href="https://github.com/vigzmv/into-the-ReactJs"
-                  className="text-blue-600 hover:underline"
-                >
-                  https://github.com/vigzmv/into-the-ReactJs
+        <div className="w-full mb-12">
+          <div className="flex justify-between items-center mb-6">
+            <h2 className="text-xl font-semibold">Featured</h2>
+          </div>
+
+          <div className="space-y-8">
+            {PortfolioItems.map((item, index) => (
+              <Card
+                key={index}
+                className="overflow-hidden border-2 hover:border-blue-500 transition-colors"
+              >
+                <Link href={item.link} className="block" target="_blank">
+                  <div className="flex flex-col md:flex-row p-4">
+                    <div className="relative h-48 md:h-auto md:w-2/5">
+                      <Image
+                        src={item.image}
+                        alt={item.title}
+                        fill
+                        className={item.imageClass}
+                      />
+                    </div>
+                    <CardContent className="md:w-3/5 flex flex-col justify-center px-0 pt-4 pb-2 md:px-6 md:pt-3 md:pb-3">
+                      <div className="flex items-start justify-between gap-2">
+                        <div>
+                          <div className="flex items-baseline gap-2 mb-2">
+                            <h3 className="font-semibold text-lg leading-6">
+                              {item.title}
+                              <span className="text-sm font-normal text-muted-foreground">
+                                {' - '}
+                                {item.year}
+                              </span>
+                            </h3>
+                          </div>
+                          <p className="text-muted-foreground text-sm">
+                            {item.description}
+                          </p>
+                        </div>
+                        <FiExternalLink className="w-5 h-5 text-muted-foreground/60 flex-shrink-0 mt-1" />
+                      </div>
+                    </CardContent>
+                  </div>
                 </Link>
-              </p>
-            </div>
-            <div className="grid gap-2">
-              <p className="text-muted-foreground">
-                localStorage-node in memory localStorage polyfill for node.js
-                utilizing ES6 proxies.{' '}
-                <Link
-                  href="https://github.com/vigzmv/localStorage-node"
-                  className="text-blue-600 hover:underline"
-                >
-                  https://github.com/vigzmv/localStorage-node
-                </Link>
-              </p>
-            </div>
-            <div className="grid gap-2">
-              <p className="text-muted-foreground">
-                react-promise-suspense 1Million+ Downloads. A React hook for
-                resolving promises with Suspense support. {'<1kb'} bundle.{' '}
-                <Link
-                  href="https://github.com/vigzmv/react-promise-suspense"
-                  className="text-blue-600 hover:underline"
-                >
-                  https://github.com/vigzmv/react-promise-suspense
-                </Link>
-              </p>
-            </div>
-            <div className="grid gap-2">
-              <p className="text-muted-foreground">
-                what_the_thing 📸 Point your camera at things to learn how to
-                say them in a different language. Mobile app built with React
-                Native.{' '}
-                <Link
-                  href="https://github.com/vigzmv/what_the_thing"
-                  className="text-blue-600 hover:underline"
-                >
-                  https://github.com/vigzmv/what_the_thing
-                </Link>
-              </p>
-            </div>
+              </Card>
+            ))}
           </div>
         </div>
       </div>
