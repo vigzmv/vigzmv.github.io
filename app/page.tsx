@@ -282,7 +282,7 @@ export default function Page() {
           </div>
           <div className="space-y-8">
             {WorkEx.map(([date, title], index) => (
-              <div className="grid gap-1">
+              <div className="grid gap-1" key={index}>
                 <div className="text-sm text-muted-foreground">{date}</div>
                 <div className="font-medium">{title}</div>
               </div>

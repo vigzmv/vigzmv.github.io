@@ -1,5 +1,7 @@
 import './globals.css';
 
+import { GoogleAnalytics } from '@next/third-parties/google';
+
 const meta = {
   title: 'Vignesh M - Tech Lead | Software Engineer | Software Architect',
   desc: 'Engineering & Product Leader with expertise in scaling high-performing systems and cohesive teams. Open to tech consulting and fractional executive roles.',
@@ -111,6 +113,7 @@ export default function RootLayout({
       </head>
 
       <body>{children}</body>
+      <GoogleAnalytics gaId="G-FSNYEJV94Q" />
     </html>
   );
 }
